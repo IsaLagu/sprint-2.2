@@ -18,9 +18,9 @@ function validate() {
     error++;
   }
 
-  // if(error>0){
-  // 	alert("Error");
-  // }else{
-  // 	alert("OK");
-  // }
+  if (error > 0) {
+    alert("Error");
+  } else {
+    alert("OK");
+  }
 }
